@@ -1,11 +1,9 @@
 {
-	"compilerOptions": {
-		"strict": true,
-
-		"module": "NodeNext",
-
-		"noEmit": true,
-		"resolveJsonModule": true,
-		"allowImportingTsExtensions": true
-	}
+    "compilerOptions": {
+      "module": "commonjs",
+      "strictNullChecks": true
+    },
+    "files": [
+      "index.d.ts"
+    ]
 }
